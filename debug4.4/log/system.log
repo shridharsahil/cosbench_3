@@ -1,0 +1,160 @@
+2016-08-09 09:59:26,435 [INFO] [Log4jLogManager] - will append log to file /Users/sahilshridhar/Documents/cosbench4/debug4.4/log/system.log
+2016-08-09 09:59:27,971 [INFO] [Log4jLogManager] - will append log to file /Users/sahilshridhar/Documents/cosbench4/debug4.4/log/system.log
+2016-08-09 09:59:27,986 [INFO] [SimpleWorkloadArchiver] - using /Users/sahilshridhar/Documents/cosbench4/debug4.4/archive for storing workload archives
+2016-08-09 09:59:27,987 [INFO] [SimpleWorkloadLoader] - loading workload archives from /Users/sahilshridhar/Documents/cosbench4/debug4.4/archive
+2016-08-09 09:59:27,988 [INFO] [SimpleWorkloadArchiver] - using /Users/sahilshridhar/Documents/cosbench4/debug4.4/archive for storing workload archives
+2016-08-09 09:59:27,989 [INFO] [SimpleWorkloadLoader] - loading workload archives from /Users/sahilshridhar/Documents/cosbench4/debug4.4/archive
+2016-08-09 09:59:39,048 [INFO] [WorkloadProcessor] - begin to process workload w1
+2016-08-09 09:59:39,049 [INFO] [WorkloadProcessor] - begin to run stage s1-init
+2016-08-09 09:59:39,049 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 09:59:39,049 [INFO] [WorkloadProcessor] - START WORK: init
+2016-08-09 09:59:39,283 [WARN] [PingHandler] - os type on driver N/A is mac os x!
+2016-08-09 09:59:39,319 [INFO] [AbstractCommandTasklet] - time drift between controller and driver-driver1 is 35 mSec
+2016-08-09 09:59:39,319 [INFO] [StageRunner] - successfully booted all tasks in stage s1-init
+2016-08-09 09:59:39,371 [INFO] [StageRunner] - successfully submitted all tasks in stage s1-init
+2016-08-09 09:59:39,388 [INFO] [MissionHandler] - mission M66FD0F1854 has been authed successfully
+2016-08-09 09:59:39,389 [INFO] [StageRunner] - successfully authenticated all tasks in stage s1-init
+2016-08-09 09:59:39,599 [INFO] [StageRunner] - successfully launched all tasks in stage s1-init
+2016-08-09 09:59:39,793 [INFO] [MissionHandler] - mission M66FD0F1854 has been executed successfully
+2016-08-09 09:59:44,615 [INFO] [StageRunner] - successfully queried all tasks in stage s1-init
+2016-08-09 09:59:44,622 [INFO] [MissionHandler] - mission M66FD0F1854 has been closed successfully
+2016-08-09 09:59:44,649 [INFO] [StageRunner] - successfully closed all tasks in stage s1-init
+2016-08-09 09:59:44,653 [INFO] [StageRunner] - acceptable failure ratio of work s1-init-init = 0.0
+2016-08-09 09:59:44,653 [INFO] [StageRunner] - real failure ratio of work s1-init-init = N/A
+2016-08-09 09:59:44,653 [INFO] [StageRunner] - successfully reach the goal of acceptable failure ratio in stage s1-init - work init
+2016-08-09 09:59:47,107 [INFO] [WorkloadProcessor] - END WORK:   init, Time elapsed: 0:0::8
+2016-08-09 09:59:47,108 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 09:59:47,108 [INFO] [WorkloadProcessor] - successfully ran stage s1-init
+2016-08-09 09:59:47,108 [INFO] [WorkloadProcessor] - begin to run stage s2-prepare
+2016-08-09 09:59:47,108 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 09:59:47,108 [INFO] [WorkloadProcessor] - START WORK: prepare
+2016-08-09 09:59:47,112 [WARN] [PingHandler] - os type on driver N/A is mac os x!
+2016-08-09 09:59:47,114 [INFO] [AbstractCommandTasklet] - time drift between controller and driver-driver1 is 2 mSec
+2016-08-09 09:59:47,115 [INFO] [StageRunner] - successfully booted all tasks in stage s2-prepare
+2016-08-09 09:59:47,123 [INFO] [StageRunner] - successfully submitted all tasks in stage s2-prepare
+2016-08-09 09:59:47,138 [INFO] [MissionHandler] - mission MB6FD10E789 has been authed successfully
+2016-08-09 09:59:47,139 [INFO] [StageRunner] - successfully authenticated all tasks in stage s2-prepare
+2016-08-09 09:59:47,346 [INFO] [StageRunner] - successfully launched all tasks in stage s2-prepare
+2016-08-09 10:00:06,370 [INFO] [MissionHandler] - mission MB6FD10E789 has been executed successfully
+2016-08-09 10:00:07,379 [INFO] [StageRunner] - successfully queried all tasks in stage s2-prepare
+2016-08-09 10:00:07,383 [INFO] [MissionHandler] - mission MB6FD10E789 has been closed successfully
+2016-08-09 10:00:07,428 [INFO] [StageRunner] - successfully closed all tasks in stage s2-prepare
+2016-08-09 10:00:07,430 [INFO] [StageRunner] - acceptable failure ratio of work s2-prepare-prepare = 0.0
+2016-08-09 10:00:07,430 [INFO] [StageRunner] - real failure ratio of work s2-prepare-prepare = 0.0
+2016-08-09 10:00:07,430 [INFO] [StageRunner] - successfully reach the goal of acceptable failure ratio in stage s2-prepare - work prepare
+2016-08-09 10:00:09,866 [INFO] [WorkloadProcessor] - END WORK:   prepare, Time elapsed: 0:0::22
+2016-08-09 10:00:09,867 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:00:09,867 [INFO] [WorkloadProcessor] - successfully ran stage s2-prepare
+2016-08-09 10:00:09,867 [INFO] [WorkloadProcessor] - begin to run stage s3-main
+2016-08-09 10:00:09,867 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:00:09,867 [INFO] [WorkloadProcessor] - START WORK: main
+2016-08-09 10:00:09,870 [WARN] [PingHandler] - os type on driver N/A is mac os x!
+2016-08-09 10:00:09,873 [INFO] [AbstractCommandTasklet] - time drift between controller and driver-driver1 is 2 mSec
+2016-08-09 10:00:09,873 [INFO] [StageRunner] - successfully booted all tasks in stage s3-main
+2016-08-09 10:00:09,884 [INFO] [StageRunner] - successfully submitted all tasks in stage s3-main
+2016-08-09 10:00:09,898 [INFO] [MissionHandler] - mission M16FD169420 has been authed successfully
+2016-08-09 10:00:09,899 [INFO] [StageRunner] - successfully authenticated all tasks in stage s3-main
+2016-08-09 10:00:10,107 [INFO] [StageRunner] - successfully launched all tasks in stage s3-main
+2016-08-09 10:05:09,906 [INFO] [MissionHandler] - mission M16FD169420 has been executed successfully
+2016-08-09 10:05:10,504 [INFO] [StageRunner] - successfully queried all tasks in stage s3-main
+2016-08-09 10:05:10,511 [INFO] [MissionHandler] - mission M16FD169420 has been closed successfully
+2016-08-09 10:05:10,723 [INFO] [StageRunner] - successfully closed all tasks in stage s3-main
+2016-08-09 10:05:10,724 [INFO] [StageRunner] - acceptable failure ratio of work s3-main-main = 0.2
+2016-08-09 10:05:10,724 [INFO] [StageRunner] - real failure ratio of work s3-main-main = 0.0
+2016-08-09 10:05:10,724 [INFO] [StageRunner] - successfully reach the goal of acceptable failure ratio in stage s3-main - work main
+2016-08-09 10:05:12,832 [INFO] [WorkloadProcessor] - END WORK:   main, Time elapsed: 0:5::2
+2016-08-09 10:05:12,832 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:05:12,832 [INFO] [WorkloadProcessor] - successfully ran stage s3-main
+2016-08-09 10:05:12,833 [INFO] [WorkloadProcessor] - begin to run stage s4-cleanup
+2016-08-09 10:05:12,833 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:05:12,833 [INFO] [WorkloadProcessor] - START WORK: cleanup
+2016-08-09 10:05:12,836 [WARN] [PingHandler] - os type on driver N/A is mac os x!
+2016-08-09 10:05:12,837 [INFO] [AbstractCommandTasklet] - time drift between controller and driver-driver1 is 1 mSec
+2016-08-09 10:05:12,837 [INFO] [StageRunner] - successfully booted all tasks in stage s4-cleanup
+2016-08-09 10:05:12,846 [INFO] [StageRunner] - successfully submitted all tasks in stage s4-cleanup
+2016-08-09 10:05:12,858 [INFO] [MissionHandler] - mission M46FD606DFD has been authed successfully
+2016-08-09 10:05:12,860 [INFO] [StageRunner] - successfully authenticated all tasks in stage s4-cleanup
+2016-08-09 10:05:13,066 [INFO] [StageRunner] - successfully launched all tasks in stage s4-cleanup
+2016-08-09 10:05:50,344 [INFO] [MissionHandler] - mission M46FD606DFD has been executed successfully
+2016-08-09 10:05:53,109 [INFO] [StageRunner] - successfully queried all tasks in stage s4-cleanup
+2016-08-09 10:05:53,112 [INFO] [MissionHandler] - mission M46FD606DFD has been closed successfully
+2016-08-09 10:05:53,124 [INFO] [StageRunner] - successfully closed all tasks in stage s4-cleanup
+2016-08-09 10:05:53,125 [INFO] [StageRunner] - acceptable failure ratio of work s4-cleanup-cleanup = 0.0
+2016-08-09 10:05:53,125 [INFO] [StageRunner] - real failure ratio of work s4-cleanup-cleanup = 0.0
+2016-08-09 10:05:53,125 [INFO] [StageRunner] - successfully reach the goal of acceptable failure ratio in stage s4-cleanup - work cleanup
+2016-08-09 10:05:55,593 [INFO] [WorkloadProcessor] - END WORK:   cleanup, Time elapsed: 0:0::42
+2016-08-09 10:05:55,593 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:05:55,593 [INFO] [WorkloadProcessor] - successfully ran stage s4-cleanup
+2016-08-09 10:05:55,593 [INFO] [WorkloadProcessor] - begin to run stage s5-dispose
+2016-08-09 10:05:55,593 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:05:55,593 [INFO] [WorkloadProcessor] - START WORK: dispose
+2016-08-09 10:05:55,596 [WARN] [PingHandler] - os type on driver N/A is mac os x!
+2016-08-09 10:05:55,598 [INFO] [AbstractCommandTasklet] - time drift between controller and driver-driver1 is 1 mSec
+2016-08-09 10:05:55,598 [INFO] [StageRunner] - successfully booted all tasks in stage s5-dispose
+2016-08-09 10:05:55,604 [INFO] [StageRunner] - successfully submitted all tasks in stage s5-dispose
+2016-08-09 10:05:55,618 [INFO] [MissionHandler] - mission M16FD6AFC70 has been authed successfully
+2016-08-09 10:05:55,620 [INFO] [StageRunner] - successfully authenticated all tasks in stage s5-dispose
+2016-08-09 10:05:55,826 [INFO] [StageRunner] - successfully launched all tasks in stage s5-dispose
+2016-08-09 10:05:56,000 [INFO] [MissionHandler] - mission M16FD6AFC70 has been executed successfully
+2016-08-09 10:06:00,835 [INFO] [StageRunner] - successfully queried all tasks in stage s5-dispose
+2016-08-09 10:06:00,838 [INFO] [MissionHandler] - mission M16FD6AFC70 has been closed successfully
+2016-08-09 10:06:00,846 [INFO] [StageRunner] - successfully closed all tasks in stage s5-dispose
+2016-08-09 10:06:00,847 [INFO] [StageRunner] - acceptable failure ratio of work s5-dispose-dispose = 0.0
+2016-08-09 10:06:00,847 [INFO] [StageRunner] - real failure ratio of work s5-dispose-dispose = N/A
+2016-08-09 10:06:00,847 [INFO] [StageRunner] - successfully reach the goal of acceptable failure ratio in stage s5-dispose - work dispose
+2016-08-09 10:06:03,332 [INFO] [WorkloadProcessor] - END WORK:   dispose, Time elapsed: 0:0::7
+2016-08-09 10:06:03,332 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:06:03,332 [INFO] [WorkloadProcessor] - successfully ran stage s5-dispose
+2016-08-09 10:06:03,490 [INFO] [SimpleWorkloadArchiver] - workload w1 has been successfully archived
+2016-08-09 10:06:03,491 [INFO] [WorkloadProcessor] - sucessfully processed workload w1
+2016-08-09 10:25:42,958 [INFO] [WorkloadProcessor] - begin to process workload w2
+2016-08-09 10:25:42,958 [INFO] [WorkloadProcessor] - begin to run stage s1-init
+2016-08-09 10:25:42,959 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:25:42,959 [INFO] [WorkloadProcessor] - START WORK: init
+2016-08-09 10:25:42,962 [WARN] [PingHandler] - os type on driver N/A is mac os x!
+2016-08-09 10:25:42,963 [INFO] [AbstractCommandTasklet] - time drift between controller and driver-driver1 is 0 mSec
+2016-08-09 10:25:42,964 [INFO] [StageRunner] - successfully booted all tasks in stage s1-init
+2016-08-09 10:25:42,970 [INFO] [StageRunner] - successfully submitted all tasks in stage s1-init
+2016-08-09 10:25:42,983 [INFO] [MissionHandler] - mission M96FE8CDE17 has been authed successfully
+2016-08-09 10:25:42,984 [INFO] [StageRunner] - successfully authenticated all tasks in stage s1-init
+2016-08-09 10:25:43,188 [INFO] [StageRunner] - successfully launched all tasks in stage s1-init
+2016-08-09 10:25:43,351 [INFO] [MissionHandler] - mission M96FE8CDE17 has been executed successfully
+2016-08-09 10:25:48,196 [INFO] [StageRunner] - successfully queried all tasks in stage s1-init
+2016-08-09 10:25:48,199 [INFO] [MissionHandler] - mission M96FE8CDE17 has been closed successfully
+2016-08-09 10:25:48,202 [INFO] [StageRunner] - successfully closed all tasks in stage s1-init
+2016-08-09 10:25:48,203 [INFO] [StageRunner] - acceptable failure ratio of work s1-init-init = 0.0
+2016-08-09 10:25:48,203 [INFO] [StageRunner] - real failure ratio of work s1-init-init = N/A
+2016-08-09 10:25:48,203 [INFO] [StageRunner] - successfully reach the goal of acceptable failure ratio in stage s1-init - work init
+2016-08-09 10:25:50,696 [INFO] [WorkloadProcessor] - END WORK:   init, Time elapsed: 0:0::7
+2016-08-09 10:25:50,696 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:25:50,696 [INFO] [WorkloadProcessor] - successfully ran stage s1-init
+2016-08-09 10:25:50,696 [INFO] [WorkloadProcessor] - begin to run stage s2-prepare
+2016-08-09 10:25:50,696 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:25:50,696 [INFO] [WorkloadProcessor] - START WORK: prepare
+2016-08-09 10:25:50,699 [WARN] [PingHandler] - os type on driver N/A is mac os x!
+2016-08-09 10:25:50,700 [INFO] [AbstractCommandTasklet] - time drift between controller and driver-driver1 is 1 mSec
+2016-08-09 10:25:50,700 [INFO] [StageRunner] - successfully booted all tasks in stage s2-prepare
+2016-08-09 10:25:50,706 [INFO] [StageRunner] - successfully submitted all tasks in stage s2-prepare
+2016-08-09 10:25:50,720 [INFO] [MissionHandler] - mission M76FE8EBB95 has been authed successfully
+2016-08-09 10:25:50,721 [INFO] [StageRunner] - successfully authenticated all tasks in stage s2-prepare
+2016-08-09 10:25:50,929 [INFO] [StageRunner] - successfully launched all tasks in stage s2-prepare
+2016-08-09 10:26:10,032 [INFO] [MissionHandler] - mission M76FE8EBB95 has been executed successfully
+2016-08-09 10:26:10,957 [INFO] [StageRunner] - successfully queried all tasks in stage s2-prepare
+2016-08-09 10:26:10,960 [INFO] [MissionHandler] - mission M76FE8EBB95 has been closed successfully
+2016-08-09 10:26:10,973 [INFO] [StageRunner] - successfully closed all tasks in stage s2-prepare
+2016-08-09 10:26:10,973 [INFO] [StageRunner] - acceptable failure ratio of work s2-prepare-prepare = 0.0
+2016-08-09 10:26:10,973 [INFO] [StageRunner] - real failure ratio of work s2-prepare-prepare = 0.0
+2016-08-09 10:26:10,973 [INFO] [StageRunner] - successfully reach the goal of acceptable failure ratio in stage s2-prepare - work prepare
+2016-08-09 10:26:13,446 [INFO] [WorkloadProcessor] - END WORK:   prepare, Time elapsed: 0:0::22
+2016-08-09 10:26:13,446 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:26:13,446 [INFO] [WorkloadProcessor] - successfully ran stage s2-prepare
+2016-08-09 10:26:13,446 [INFO] [WorkloadProcessor] - begin to run stage s3-main
+2016-08-09 10:26:13,446 [INFO] [WorkloadProcessor] - ============================================
+2016-08-09 10:26:13,446 [INFO] [WorkloadProcessor] - START WORK: main
+2016-08-09 10:26:13,449 [WARN] [PingHandler] - os type on driver N/A is mac os x!
+2016-08-09 10:26:13,450 [INFO] [AbstractCommandTasklet] - time drift between controller and driver-driver1 is 1 mSec
+2016-08-09 10:26:13,450 [INFO] [StageRunner] - successfully booted all tasks in stage s3-main
+2016-08-09 10:26:13,462 [INFO] [StageRunner] - successfully submitted all tasks in stage s3-main
+2016-08-09 10:26:13,477 [INFO] [MissionHandler] - mission MB6FE94299E has been authed successfully
+2016-08-09 10:26:13,478 [INFO] [StageRunner] - successfully authenticated all tasks in stage s3-main
+2016-08-09 10:26:13,685 [INFO] [StageRunner] - successfully launched all tasks in stage s3-main

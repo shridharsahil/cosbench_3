@@ -1,0 +1,6 @@
+2016-08-09 09:19:43,227 [INFO] [Log4jLogManager] - will append log to file /Users/sahilshridhar/Documents/cosbench4/debug4.1/log/system.log
+2016-08-09 09:19:44,267 [INFO] [Log4jLogManager] - will append log to file /Users/sahilshridhar/Documents/cosbench4/debug4.1/log/system.log
+2016-08-09 09:19:44,281 [INFO] [SimpleWorkloadArchiver] - using /Users/sahilshridhar/Documents/cosbench4/debug4.1/archive for storing workload archives
+2016-08-09 09:19:44,282 [INFO] [SimpleWorkloadLoader] - loading workload archives from /Users/sahilshridhar/Documents/cosbench4/debug4.1/archive
+2016-08-09 09:19:44,284 [INFO] [SimpleWorkloadArchiver] - using /Users/sahilshridhar/Documents/cosbench4/debug4.1/archive for storing workload archives
+2016-08-09 09:19:44,284 [INFO] [SimpleWorkloadLoader] - loading workload archives from /Users/sahilshridhar/Documents/cosbench4/debug4.1/archive

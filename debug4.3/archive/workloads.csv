@@ -1,0 +1,7 @@
+Id,Op-Name,Op-Count,Byte-Count,Worker-Count,Avg-ResTime,Avg-ProcTime,60%-ResTime,80%-ResTime,90%-ResTime,95%-ResTime,99%-ResTime,100%-ResTime,Throughput,Bandwidth,Succ-Ratio,Config-Info
+w1-s1-init-1,init-write,0,0,1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0,N/A,100% containers=r(1-32) containers=r(1-32) containers=r(1-32) objects=r(0-0) sizes=c(0)B containers=r(1-32)
+w1-s2-prepare-1,prepare-write,1600,102400000,1,11.71,11.71,20,20,20,20,20,20,84.26,5392595.71,100%,100% containers=r(1-32) objects=r(1-50) sizes=c(64)KB containers=r(1-32) objects=r(1-50) sizes=c(64)KB containers=r(1-32) objects=r(1-50) sizes=c(64)KB createContainer=false containers=r(1-32) objects=r(1-50) sizes=c(64)KB
+w1-s3-main-1,read,164050,10499200000,8,11.71,11.71,20,20,20,20,20,30,546.83,34997435.53,100%,80% containers=u(1-32) objects=u(1-50)
+w1-s3-main-2,write,40625,2600000000,8,11.62,11.62,20,20,20,20,20,30,135.42,8666691.8,100%,20% containers=u(1-32) objects=u(51-100) sizes=c(64)KB
+w1-s4-cleanup-1,cleanup-delete,3200,0,1,11.64,11.64,20,20,20,20,20,20,85.67,0,100%,100% containers=r(1-32) objects=r(1-100) containers=r(1-32) objects=r(1-100) containers=r(1-32) objects=r(1-100) deleteContainer=false containers=r(1-32) objects=r(1-100)
+w1-s5-dispose-1,dispose-delete,0,0,1,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0,N/A,100% containers=r(1-32) containers=r(1-32) containers=r(1-32) objects=r(0-0) sizes=c(0)B containers=r(1-32)
