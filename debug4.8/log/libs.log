@@ -1,0 +1,299 @@
+2016-08-11 13:55:35,095 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_1_4.xsd
+2016-08-11 13:55:35,096 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/xml.xsd
+2016-08-11 13:55:35,097 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_0.xsd
+2016-08-11 13:55:35,097 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_1.xsd
+2016-08-11 13:55:35,097 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2016-08-11 13:55:35,098 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2016-08-11 13:55:35,098 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2016-08-11 13:55:35,098 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd
+2016-08-11 13:55:35,099 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_2.dtd
+2016-08-11 13:55:35,099 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_3.dtd
+2016-08-11 13:55:35,099 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_4.xsd
+2016-08-11 13:55:35,100 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_5.xsd
+2016-08-11 13:55:35,100 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_1_1.xsd
+2016-08-11 13:55:35,102 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_client_1_1.xsd
+2016-08-11 13:55:35,337 [ERROR] [SpringOsgiExtenderThread-14] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-11 13:55:35,337 [ERROR] [SpringOsgiExtenderThread-22] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-11 13:55:35,338 [ERROR] [SpringOsgiExtenderThread-17] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-11 13:55:35,338 [ERROR] [SpringOsgiExtenderThread-23] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-11 13:55:35,339 [ERROR] [SpringOsgiExtenderThread-20] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-11 13:55:35,339 [ERROR] [SpringOsgiExtenderThread-16] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-11 13:55:35,340 [ERROR] [SpringOsgiExtenderThread-19] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-11 13:55:35,340 [ERROR] [SpringOsgiExtenderThread-18] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-11 13:55:35,341 [ERROR] [SpringOsgiExtenderThread-21] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-11 13:55:35,341 [ERROR] [SpringOsgiExtenderThread-15] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-11 13:55:36,647 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_1_4.xsd
+2016-08-11 13:55:36,649 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/xml.xsd
+2016-08-11 13:55:36,649 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_0.xsd
+2016-08-11 13:55:36,649 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_1.xsd
+2016-08-11 13:55:36,649 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2016-08-11 13:55:36,650 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2016-08-11 13:55:36,650 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2016-08-11 13:55:36,650 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd
+2016-08-11 13:55:36,650 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_2.dtd
+2016-08-11 13:55:36,651 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_3.dtd
+2016-08-11 13:55:36,651 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_4.xsd
+2016-08-11 13:55:36,651 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_5.xsd
+2016-08-11 13:55:36,651 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_1_1.xsd
+2016-08-11 13:55:36,652 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_client_1_1.xsd
+2016-08-15 12:20:50,710 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_1_4.xsd
+2016-08-15 12:20:50,714 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/xml.xsd
+2016-08-15 12:20:50,714 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_0.xsd
+2016-08-15 12:20:50,715 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_1.xsd
+2016-08-15 12:20:50,715 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2016-08-15 12:20:50,715 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2016-08-15 12:20:50,715 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2016-08-15 12:20:50,716 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd
+2016-08-15 12:20:50,716 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_2.dtd
+2016-08-15 12:20:50,716 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_3.dtd
+2016-08-15 12:20:50,716 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_4.xsd
+2016-08-15 12:20:50,716 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_5.xsd
+2016-08-15 12:20:50,717 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_1_1.xsd
+2016-08-15 12:20:50,717 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_client_1_1.xsd
+2016-08-15 12:20:52,503 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_1_4.xsd
+2016-08-15 12:20:52,504 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/xml.xsd
+2016-08-15 12:20:52,505 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_0.xsd
+2016-08-15 12:20:52,505 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_1.xsd
+2016-08-15 12:20:52,505 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2016-08-15 12:20:52,505 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2016-08-15 12:20:52,506 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2016-08-15 12:20:52,506 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd
+2016-08-15 12:20:52,506 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_2.dtd
+2016-08-15 12:20:52,507 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_3.dtd
+2016-08-15 12:20:52,507 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_4.xsd
+2016-08-15 12:20:52,507 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_5.xsd
+2016-08-15 12:20:52,507 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_1_1.xsd
+2016-08-15 12:20:52,508 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_client_1_1.xsd
+2016-08-15 12:21:19,739 [ERROR] [http-19088-1] freemarker.log._Log4JLoggerFactory$Log4JLogger - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> resource  [in template "404.ftl" at line 14, column 64]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> ${resource}  [in template "404.ftl" at line 14, column 62]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:382)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:115)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:366)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:283)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:233)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:817)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:525)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-15 12:21:19,741 [ERROR] [http-19088-1] org.apache.catalina.core.StandardWrapperValve - Servlet.service() for servlet main threw exception
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> resource  [in template "404.ftl" at line 14, column 64]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> ${resource}  [in template "404.ftl" at line 14, column 62]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:382)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:115)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:366)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:283)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:233)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:817)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:525)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-15 12:21:25,961 [ERROR] [http-19088-1] freemarker.log._Log4JLoggerFactory$Log4JLogger - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> resource  [in template "404.ftl" at line 14, column 64]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> ${resource}  [in template "404.ftl" at line 14, column 62]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:382)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:115)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:366)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:283)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:233)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:817)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:525)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-15 12:21:25,962 [ERROR] [http-19088-1] org.apache.catalina.core.StandardWrapperValve - Servlet.service() for servlet main threw exception
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> resource  [in template "404.ftl" at line 14, column 64]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> ${resource}  [in template "404.ftl" at line 14, column 62]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:382)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:115)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:366)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:283)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:233)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:250)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:817)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:719)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:644)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:549)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:803)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:175)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:525)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:844)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:447)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-16 14:12:41,019 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_1_4.xsd
+2016-08-16 14:12:41,022 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/xml.xsd
+2016-08-16 14:12:41,022 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_0.xsd
+2016-08-16 14:12:41,022 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_1.xsd
+2016-08-16 14:12:41,022 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2016-08-16 14:12:41,023 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2016-08-16 14:12:41,023 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2016-08-16 14:12:41,023 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd
+2016-08-16 14:12:41,023 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_2.dtd
+2016-08-16 14:12:41,023 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_3.dtd
+2016-08-16 14:12:41,024 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_4.xsd
+2016-08-16 14:12:41,024 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_5.xsd
+2016-08-16 14:12:41,024 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_1_1.xsd
+2016-08-16 14:12:41,024 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_client_1_1.xsd
+2016-08-16 14:12:41,283 [ERROR] [SpringOsgiExtenderThread-21] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-16 14:12:41,284 [ERROR] [SpringOsgiExtenderThread-18] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-16 14:12:41,284 [ERROR] [SpringOsgiExtenderThread-22] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-16 14:12:41,284 [ERROR] [SpringOsgiExtenderThread-17] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-16 14:12:41,285 [ERROR] [SpringOsgiExtenderThread-23] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-16 14:12:41,285 [ERROR] [SpringOsgiExtenderThread-16] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-16 14:12:41,285 [ERROR] [SpringOsgiExtenderThread-14] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-16 14:12:41,286 [ERROR] [SpringOsgiExtenderThread-15] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-16 14:12:41,286 [ERROR] [SpringOsgiExtenderThread-19] org.springframework.osgi.extender.internal.dependencies.startup.DependencyWaiterApplicationContextExecutor - Expecting state (RESOLVING_DEPENDENCIES) not (DEPENDENCIES_RESOLVED) for context [OsgiBundleXmlApplicationContext(bundle=cosbench-driver, config=osgibundle:/META-INF/spring/*.xml)]; assuming an interruption and bailing out
+2016-08-16 14:12:42,297 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_1_4.xsd
+2016-08-16 14:12:42,298 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/xml.xsd
+2016-08-16 14:12:42,299 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_0.xsd
+2016-08-16 14:12:42,299 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/jsp_2_1.xsd
+2016-08-16 14:12:42,299 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_1.dtd
+2016-08-16 14:12:42,299 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_1_2.dtd
+2016-08-16 14:12:42,299 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_0.xsd
+2016-08-16 14:12:42,300 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/jsp/resources/web-jsptaglibrary_2_1.xsd
+2016-08-16 14:12:42,300 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_2.dtd
+2016-08-16 14:12:42,300 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_3.dtd
+2016-08-16 14:12:42,300 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_4.xsd
+2016-08-16 14:12:42,300 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/web-app_2_5.xsd
+2016-08-16 14:12:42,301 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_1_1.xsd
+2016-08-16 14:12:42,301 [WARN] [Timer-0] org.apache.catalina.startup.DigesterFactory - Could not get url for /javax/servlet/resources/j2ee_web_services_client_1_1.xsd

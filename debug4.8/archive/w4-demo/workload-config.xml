@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workload name="demo" description="demo benchmark" config="">
+    <auth type="mock"/>
+    <storage type="mock" config="size=64000"/>
+    <workflow config="">
+        <workstage name="init" closuredelay="0" config="">
+            <auth type="mock"/>
+            <storage type="mock" config="size=64000"/>
+            <work name="init" type="init" workers="1" interval="5"
+                division="container" runtime="0" rampup="0" rampdown="0"
+                afr="0" totalOps="1" totalBytes="0" config="containers=r(1,32)">
+                <auth type="mock"/>
+                <storage type="mock" config="size=64000"/>
+                <operation type="init" ratio="100" division="container"
+                    config="containers=r(1,32);containers=r(1,32);containers=r(1,32);objects=r(0,0);sizes=c(0)B;containers=r(1,32)" id="op1"/>
+            </work>
+        </workstage>
+        <workstage name="prepare" closuredelay="0" config="">
+            <auth type="mock"/>
+            <storage type="mock" config="size=64000"/>
+            <work name="prepare" type="prepare" workers="1" interval="5"
+                division="object" runtime="0" rampup="0" rampdown="0"
+                afr="0" totalOps="1" totalBytes="0" config="containers=r(1,32);objects=r(1,50);sizes=c(64)KB">
+                <auth type="mock"/>
+                <storage type="mock" config="size=64000"/>
+                <operation type="prepare" ratio="100" division="object"
+                    config="containers=r(1,32);objects=r(1,50);sizes=c(64)KB;containers=r(1,32);objects=r(1,50);sizes=c(64)KB;containers=r(1,32);objects=r(1,50);sizes=c(64)KB;createContainer=false;containers=r(1,32);objects=r(1,50);sizes=c(64)KB" id="op1"/>
+            </work>
+        </workstage>
+        <workstage name="main" closuredelay="0" config="">
+            <auth type="mock"/>
+            <storage type="mock" config="size=64000"/>
+            <work name="main" type="normal" workers="8" interval="5"
+                division="none" runtime="300" rampup="0" rampdown="0"
+                afr="200000" totalOps="0" totalBytes="0" config="">
+                <auth type="mock"/>
+                <storage type="mock" config="size=64000"/>
+                <operation type="read" ratio="80" division="none"
+                    config="containers=u(1,32);objects=u(1,50)" id="op1"/>
+                <operation type="write" ratio="20" division="none"
+                    config="containers=u(1,32);objects=u(51,100);sizes=c(64)KB" id="op2"/>
+            </work>
+        </workstage>
+        <workstage name="cleanup" closuredelay="0" config="">
+            <auth type="mock"/>
+            <storage type="mock" config="size=64000"/>
+            <work name="cleanup" type="cleanup" workers="1" interval="5"
+                division="object" runtime="0" rampup="0" rampdown="0"
+                afr="0" totalOps="1" totalBytes="0" config="containers=r(1,32);objects=r(1,100)">
+                <auth type="mock"/>
+                <storage type="mock" config="size=64000"/>
+                <operation type="cleanup" ratio="100" division="object"
+                    config="containers=r(1,32);objects=r(1,100);containers=r(1,32);objects=r(1,100);containers=r(1,32);objects=r(1,100);deleteContainer=false;containers=r(1,32);objects=r(1,100)" id="op1"/>
+            </work>
+        </workstage>
+        <workstage name="dispose" closuredelay="0" config="">
+            <auth type="mock"/>
+            <storage type="mock" config="size=64000"/>
+            <work name="dispose" type="dispose" workers="1" interval="5"
+                division="container" runtime="0" rampup="0" rampdown="0"
+                afr="0" totalOps="1" totalBytes="0" config="containers=r(1,32)">
+                <auth type="mock"/>
+                <storage type="mock" config="size=64000"/>
+                <operation type="dispose" ratio="100"
+                    division="container"
+                    config="containers=r(1,32);containers=r(1,32);containers=r(1,32);objects=r(0,0);sizes=c(0)B;containers=r(1,32)" id="op1"/>
+            </work>
+        </workstage>
+    </workflow>
+</workload>

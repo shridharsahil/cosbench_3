@@ -111,7 +111,6 @@ public class S3Storage extends NoneStorage {
         super.getObject(container, object, config);
         InputStream stream;
         try {
-        	
             S3Object s3Obj = client.getObject(container, object);
             stream = s3Obj.getObjectContent();
             

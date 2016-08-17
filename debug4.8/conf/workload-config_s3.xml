@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<workload name="demo" description="demo benchmark">
+
+  
+<storage type="s3" config="accesskey=Xs2BT11OSvS9NZolZ1NX;secretkey=TGq0993u2DJfgBGFbhQT1s8dTuYmISVPBsdbyD9s;endpoint=http://s3.sjc.objectstorage.uat.service.networklayer.com" />
+  <workflow>
+
+    <!-- Initialization -->
+    <workstage name="init">
+      <work type="init" workers="1" config="containers=r(1,32)" />
+    </workstage>
+
+    <!-- Prepare Stage -->
+    <workstage name="prepare">
+      <work type="prepare" workers="1" config="containers=r(1,32);objects=r(1,50);sizes=c(64)KB" />
+    </workstage>
+
+    <!-- Main Benchmark Stage -->
+    <workstage name="main">
+      <work name="main" workers="8" runtime="300">
+        <operation type="read" ratio="80" config="containers=u(1,32);objects=u(1,50)" />
+        <operation type="write" ratio="20" config="containers=u(1,32);objects=u(51,100);sizes=c(64)KB" />
+			</work>
+    </workstage>
+
+    <!-- Clean Up Stage -->
+    <workstage name="cleanup">
+      <work type="cleanup" workers="1" config="containers=r(1,32);objects=r(1,100)" />
+    </workstage>
+
+    <!-- Disposal Stage -->
+    <workstage name="dispose">
+      <work type="dispose" workers="1" config="containers=r(1,32)" />
+    </workstage>
+
+  </workflow>
+
+</workload>
